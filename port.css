@@ -1,0 +1,98 @@
+body {
+    background-color: #FFFAF0;
+}
+.contactme {
+    text-align: center;
+    width: 10%;
+}
+h3 {
+    text-align: left;
+    color: black;
+    padding-left: .8em;
+    width: 10%;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.butwait {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    color: black;
+    width: 10%;
+}
+li {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    text-align: left;
+    list-style: none;
+    padding-bottom: .5em;
+}
+.link {
+    color: white;
+    min-width: 48px;
+    height: 48px;
+}
+a:link {
+    text-decoration: none;
+  }
+a:hover {
+    text-decoration: none;
+    background-color:black;
+  }
+.line {
+    display: flex;
+    text-align: right;
+    margin-left: 10em;
+    margin-right: 7em;
+}
+.together {
+    flex: 33.33%;
+    padding: 5px;
+    margin: 3% auto;
+
+}
+@media screen and (max-width: 400px) {
+    .line {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        margin-right: 0%;
+        margin-left: 0%;
+    }
+    .together {
+        height: 100%;
+        width: 100%;
+    }
+    .butwait {
+        font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+        color: black;
+        width: 50%;
+    }
+    h3 {
+        text-align: left;
+        color: black;
+        padding-left: .8em;
+        width: 50%;
+        font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    }
+}
+@media screen and (min-width: 401px) and (max-width: 800px) {
+    .line {
+       display: flex;
+       flex-direction: column;
+       margin-right: 0%;
+       margin-left: 0%;
+    }
+    .together {
+        height: 100%;
+        width: 100%;
+    }
+    .butwait {
+        font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+        color: black;
+        width: 50%;
+    }
+    h3 {
+        text-align: left;
+        color: black;
+        padding-left: .8em;
+        width: 50%;
+        font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    }
+}
